@@ -1,13 +1,13 @@
 {% set name = "yaozarrs" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e906d0ae20a6d8dbf972bfd5206ba3bef5216a938dbbe16a6ee935af7f6c4107
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: d99cf65b03daffe3e704d97726ead7b8ff9da29815d4d973edc0ff3b46e7de7f
 
 build:
   noarch: python
