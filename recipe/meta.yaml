@@ -1,5 +1,5 @@
 {% set name = "yaozarrs" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7f9a9a5e33bb56014586109a0c2e79537e78124ae90ff7ef7f45bb8bcab6ee2b
+  sha256: ba35d3c9ab9bfcc789e157865a7bf984f1cb3128c13b94da288bff2a430dc3c2
 
 build:
   noarch: python
